@@ -84,7 +84,7 @@ app.get('/api/community/stats', (_req, res) => {
   } catch (err) { console.error('Community stats failed:', err.message); sendError(res, 500, 'Community statistics are unavailable.'); }
 });
 
-app.post('/api/auth/register', async (req, res) => {
+  console.log('[register] request received'); {
   try {
     const name = typeof req.body.name === 'string' ? req.body.name.trim() : '';
     const email = typeof req.body.email === 'string' ? req.body.email.trim().toLowerCase() : '';
@@ -104,7 +104,7 @@ app.post('/api/auth/register', async (req, res) => {
     const now = Date.now();
     db.prepare(`INSERT INTO pending_registrations(email,name,password_hash,code_hash,expires_at,attempts,city,created_at) VALUES(?,?,?,?,?,0,?,?) ON CONFLICT(email) DO UPDATE SET name=excluded.name,password_hash=excluded.password_hash,code_hash=excluded.code_hash,expires_at=excluded.expires_at,attempts=0,city=excluded.city,created_at=excluded.created_at`).run(email, name, passwordHash, codeHash(email, code), now + 10 * 60 * 1000, city, now);
     try {
-      await mailer.sendMail({ from: process.env.MAIL_FROM, to: email, subject: 'Your KitBench email verification code', text: `Hello ${name},\n\nYour KitBench verification code is ${code}. It expires in 10 minutes.\n\nIf you did not request this, you can ignore this email.`, html: `<p>Hello ${escapeHtml(name)},</p><p>Your KitBench verification code is:</p><p style="font-size:28px;font-weight:bold;letter-spacing:6px">${code}</p><p>This code expires in 10 minutes. If you did not request it, ignore this email.</p>` });
+      console.log('[register] email send completed');({ from: process.env.MAIL_FROM, to: email, subject: 'Your KitBench email verification code', text: `Hello ${name},\n\nYour KitBench verification code is ${code}. It expires in 10 minutes.\n\nIf you did not request this, you can ignore this email.`, html: `<p>Hello ${escapeHtml(name)},</p><p>Your KitBench verification code is:</p><p style="font-size:28px;font-weight:bold;letter-spacing:6px">${code}</p><p>This code expires in 10 minutes. If you did not request it, ignore this email.</p>` });
     } catch (mailErr) {
       db.prepare('DELETE FROM pending_registrations WHERE email = ?').run(email);
       console.error('Verification email failed:', mailErr.message);
