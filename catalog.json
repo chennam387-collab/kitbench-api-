@@ -1,0 +1,1802 @@
+{
+ "R01": {
+  "title": "Line follower robot",
+  "price": 129900
+ },
+ "R02": {
+  "title": "Bluetooth-controlled car",
+  "price": 139900
+ },
+ "R03": {
+  "title": "Obstacle-avoiding car",
+  "price": 149900
+ },
+ "R04": {
+  "title": "Light-seeking robot",
+  "price": 159900
+ },
+ "R05": {
+  "title": "Light-avoiding robot",
+  "price": 169900
+ },
+ "R06": {
+  "title": "Clap-controlled car",
+  "price": 129900
+ },
+ "R07": {
+  "title": "Servo sweep radar",
+  "price": 139900
+ },
+ "R08": {
+  "title": "IR remote-controlled car",
+  "price": 149900
+ },
+ "R09": {
+  "title": "Bristlebot",
+  "price": 159900
+ },
+ "R10": {
+  "title": "Edge-detecting robot",
+  "price": 169900
+ },
+ "R11": {
+  "title": "Automatic dustbin lid",
+  "price": 129900
+ },
+ "R12": {
+  "title": "One-servo gripper",
+  "price": 139900
+ },
+ "R13": {
+  "title": "Voice-controlled car",
+  "price": 149900
+ },
+ "R14": {
+  "title": "Doodle plotter bot",
+  "price": 159900
+ },
+ "R15": {
+  "title": "Dancing robot",
+  "price": 169900
+ },
+ "R16": {
+  "title": "Solar tracker",
+  "price": 129900
+ },
+ "R17": {
+  "title": "Flame-detecting alarm robot",
+  "price": 139900
+ },
+ "R18": {
+  "title": "Wall-following robot",
+  "price": 269900
+ },
+ "R19": {
+  "title": "Maze-solving robot",
+  "price": 279900
+ },
+ "R20": {
+  "title": "PID line follower",
+  "price": 289900
+ },
+ "R21": {
+  "title": "Wi-Fi joystick robot",
+  "price": 249900
+ },
+ "R22": {
+  "title": "Mini sumo robot",
+  "price": 259900
+ },
+ "R23": {
+  "title": "Fire-fighting robot",
+  "price": 269900
+ },
+ "R24": {
+  "title": "Gesture-controlled robot",
+  "price": 279900
+ },
+ "R25": {
+  "title": "Potentiometer-controlled robotic arm",
+  "price": 289900
+ },
+ "R26": {
+  "title": "Offline voice-command robot",
+  "price": 249900
+ },
+ "R27": {
+  "title": "Camera rover",
+  "price": 259900
+ },
+ "R28": {
+  "title": "Color-sorting machine",
+  "price": 269900
+ },
+ "R29": {
+  "title": "Conveyor pick-and-place sorter",
+  "price": 279900
+ },
+ "R30": {
+  "title": "Person-following cart",
+  "price": 289900
+ },
+ "R31": {
+  "title": "Pipe-inspection crawler",
+  "price": 249900
+ },
+ "R32": {
+  "title": "Quadruped spider robot",
+  "price": 259900
+ },
+ "R33": {
+  "title": "Self-parking toy car",
+  "price": 269900
+ },
+ "R34": {
+  "title": "Leader-follower robots",
+  "price": 579900
+ },
+ "R35": {
+  "title": "Self-balancing robot",
+  "price": 589900
+ },
+ "R36": {
+  "title": "6-axis arm with inverse kinematics",
+  "price": 549900
+ },
+ "R37": {
+  "title": "Lidar mapping robot",
+  "price": 559900
+ },
+ "R38": {
+  "title": "ROS 2 mobile robot",
+  "price": 569900
+ },
+ "R39": {
+  "title": "Object-tracking robot",
+  "price": 579900
+ },
+ "R40": {
+  "title": "Sensor-fusion rover",
+  "price": 589900
+ },
+ "R41": {
+  "title": "Hexapod walker",
+  "price": 549900
+ },
+ "R42": {
+  "title": "Quadcopter drone build",
+  "price": 559900
+ },
+ "R43": {
+  "title": "Robotic hand",
+  "price": 569900
+ },
+ "R44": {
+  "title": "Face-tracking turret",
+  "price": 579900
+ },
+ "R45": {
+  "title": "Marker-navigation warehouse robot",
+  "price": 589900
+ },
+ "R46": {
+  "title": "Mecanum-wheel robot",
+  "price": 549900
+ },
+ "R47": {
+  "title": "Biped walking robot",
+  "price": 559900
+ },
+ "R48": {
+  "title": "Vision-guided pick-and-place arm",
+  "price": 569900
+ },
+ "R49": {
+  "title": "Micromouse maze solver",
+  "price": 579900
+ },
+ "R50": {
+  "title": "Water-surface cleaning robot",
+  "price": 589900
+ },
+ "E01": {
+  "title": "LED pattern controller",
+  "price": 89900
+ },
+ "E02": {
+  "title": "Traffic light controller",
+  "price": 99900
+ },
+ "E03": {
+  "title": "Debounced push-button toggle",
+  "price": 109900
+ },
+ "E04": {
+  "title": "Digital dice",
+  "price": 119900
+ },
+ "E05": {
+  "title": "Temperature display",
+  "price": 129900
+ },
+ "E06": {
+  "title": "Ultrasonic distance meter",
+  "price": 89900
+ },
+ "E07": {
+  "title": "Door-open alarm",
+  "price": 99900
+ },
+ "E08": {
+  "title": "Automatic night lamp",
+  "price": 109900
+ },
+ "E09": {
+  "title": "Soil moisture indicator",
+  "price": 119900
+ },
+ "E10": {
+  "title": "Rain alert system",
+  "price": 129900
+ },
+ "E11": {
+  "title": "RTC digital clock",
+  "price": 89900
+ },
+ "E12": {
+  "title": "Keypad door lock",
+  "price": 99900
+ },
+ "E13": {
+  "title": "Buzzer piano",
+  "price": 109900
+ },
+ "E14": {
+  "title": "Gas leakage detector",
+  "price": 119900
+ },
+ "E15": {
+  "title": "Motion-activated light",
+  "price": 129900
+ },
+ "E16": {
+  "title": "Servo-controlled door",
+  "price": 89900
+ },
+ "E17": {
+  "title": "Digital voltmeter",
+  "price": 209900
+ },
+ "E18": {
+  "title": "ESP32 weather station",
+  "price": 219900
+ },
+ "E19": {
+  "title": "Wi-Fi relay controller",
+  "price": 229900
+ },
+ "E20": {
+  "title": "RFID attendance system",
+  "price": 239900
+ },
+ "E21": {
+  "title": "Fingerprint door lock",
+  "price": 199900
+ },
+ "E22": {
+  "title": "Heart-rate and SpO2 monitor",
+  "price": 209900
+ },
+ "E23": {
+  "title": "GPS tracker with SD logging",
+  "price": 219900
+ },
+ "E24": {
+  "title": "SD-card data logger",
+  "price": 229900
+ },
+ "E25": {
+  "title": "Automatic plant watering",
+  "price": 239900
+ },
+ "E26": {
+  "title": "Smart energy meter",
+  "price": 199900
+ },
+ "E27": {
+  "title": "Bluetooth home control",
+  "price": 209900
+ },
+ "E28": {
+  "title": "Water level controller",
+  "price": 219900
+ },
+ "E29": {
+  "title": "Interrupt-based stopwatch",
+  "price": 229900
+ },
+ "E30": {
+  "title": "Temperature-controlled fan",
+  "price": 239900
+ },
+ "E31": {
+  "title": "OLED game console",
+  "price": 199900
+ },
+ "E32": {
+  "title": "IR remote appliance control",
+  "price": 209900
+ },
+ "E33": {
+  "title": "Hall-sensor tachometer",
+  "price": 219900
+ },
+ "E34": {
+  "title": "MQTT sensor node",
+  "price": 429900
+ },
+ "E35": {
+  "title": "STM32 PID motor controller",
+  "price": 439900
+ },
+ "E36": {
+  "title": "FreeRTOS data acquisition",
+  "price": 399900
+ },
+ "E37": {
+  "title": "CAN bus node network",
+  "price": 409900
+ },
+ "E38": {
+  "title": "Custom UART bootloader",
+  "price": 419900
+ },
+ "E39": {
+  "title": "Battery monitor",
+  "price": 429900
+ },
+ "E40": {
+  "title": "LoRa sensor node",
+  "price": 439900
+ },
+ "E41": {
+  "title": "Keyword spotting with TinyML",
+  "price": 399900
+ },
+ "E42": {
+  "title": "ESP32 over-the-air updates",
+  "price": 409900
+ },
+ "E43": {
+  "title": "Custom USB device",
+  "price": 419900
+ },
+ "E44": {
+  "title": "Low-frequency oscilloscope",
+  "price": 429900
+ },
+ "E45": {
+  "title": "IMU attitude estimator",
+  "price": 439900
+ },
+ "E46": {
+  "title": "BLDC motor controller",
+  "price": 399900
+ },
+ "E47": {
+  "title": "Logic analyzer",
+  "price": 409900
+ },
+ "E48": {
+  "title": "Modbus-to-MQTT gateway",
+  "price": 419900
+ },
+ "E49": {
+  "title": "Register-level drivers",
+  "price": 429900
+ },
+ "E50": {
+  "title": "Secure IoT device",
+  "price": 439900
+ },
+ "V01": {
+  "title": "Logic gates on FPGA",
+  "price": 249900
+ },
+ "V02": {
+  "title": "Half and full adder",
+  "price": 259900
+ },
+ "V03": {
+  "title": "4-bit ripple-carry adder",
+  "price": 269900
+ },
+ "V04": {
+  "title": "Multiplexer and demultiplexer",
+  "price": 279900
+ },
+ "V05": {
+  "title": "Encoder and decoder",
+  "price": 289900
+ },
+ "V06": {
+  "title": "Seven-segment decoder",
+  "price": 249900
+ },
+ "V07": {
+  "title": "Magnitude comparator",
+  "price": 259900
+ },
+ "V08": {
+  "title": "Flip-flops",
+  "price": 269900
+ },
+ "V09": {
+  "title": "Up/down counter",
+  "price": 279900
+ },
+ "V10": {
+  "title": "Shift registers",
+  "price": 289900
+ },
+ "V11": {
+  "title": "Clock divider",
+  "price": 249900
+ },
+ "V12": {
+  "title": "Button debouncer",
+  "price": 259900
+ },
+ "V13": {
+  "title": "Traffic light FSM",
+  "price": 269900
+ },
+ "V14": {
+  "title": "LED chaser",
+  "price": 279900
+ },
+ "V15": {
+  "title": "Parity generator and checker",
+  "price": 289900
+ },
+ "V16": {
+  "title": "Binary to Gray code converter",
+  "price": 249900
+ },
+ "V17": {
+  "title": "4-bit ALU",
+  "price": 259900
+ },
+ "V18": {
+  "title": "Sequence detector FSM",
+  "price": 469900
+ },
+ "V19": {
+  "title": "UART transmitter and receiver",
+  "price": 479900
+ },
+ "V20": {
+  "title": "SPI master and slave",
+  "price": 489900
+ },
+ "V21": {
+  "title": "I2C master controller",
+  "price": 449900
+ },
+ "V22": {
+  "title": "VGA pattern generator",
+  "price": 459900
+ },
+ "V23": {
+  "title": "PWM generator",
+  "price": 469900
+ },
+ "V24": {
+  "title": "Synchronous FIFO",
+  "price": 479900
+ },
+ "V25": {
+  "title": "Asynchronous FIFO",
+  "price": 489900
+ },
+ "V26": {
+  "title": "Booth multiplier",
+  "price": 449900
+ },
+ "V27": {
+  "title": "Barrel shifter",
+  "price": 459900
+ },
+ "V28": {
+  "title": "FPGA stopwatch",
+  "price": 469900
+ },
+ "V29": {
+  "title": "Vending machine controller",
+  "price": 479900
+ },
+ "V30": {
+  "title": "PS/2 keyboard interface",
+  "price": 489900
+ },
+ "V31": {
+  "title": "FIR filter",
+  "price": 449900
+ },
+ "V32": {
+  "title": "LFSR random generator",
+  "price": 459900
+ },
+ "V33": {
+  "title": "Elevator controller",
+  "price": 469900
+ },
+ "V34": {
+  "title": "Pong on VGA",
+  "price": 479900
+ },
+ "V35": {
+  "title": "8-bit RISC processor",
+  "price": 789900
+ },
+ "V36": {
+  "title": "5-stage pipelined RISC-V core",
+  "price": 749900
+ },
+ "V37": {
+  "title": "RISC-V mini SoC",
+  "price": 759900
+ },
+ "V38": {
+  "title": "AXI4-Lite peripheral",
+  "price": 769900
+ },
+ "V39": {
+  "title": "Direct-mapped cache controller",
+  "price": 779900
+ },
+ "V40": {
+  "title": "Floating-point adder and multiplier",
+  "price": 789900
+ },
+ "V41": {
+  "title": "CORDIC processor",
+  "price": 749900
+ },
+ "V42": {
+  "title": "FFT accelerator",
+  "price": 759900
+ },
+ "V43": {
+  "title": "Basic Ethernet MAC",
+  "price": 769900
+ },
+ "V44": {
+  "title": "SDRAM controller",
+  "price": 779900
+ },
+ "V45": {
+  "title": "HDMI or DVI video output",
+  "price": 789900
+ },
+ "V46": {
+  "title": "Edge-detection pipeline",
+  "price": 749900
+ },
+ "V47": {
+  "title": "Small CNN accelerator",
+  "price": 759900
+ },
+ "V48": {
+  "title": "AES encryption core",
+  "price": 769900
+ },
+ "V49": {
+  "title": "RTL-to-GDSII flow",
+  "price": 179900
+ },
+ "V50": {
+  "title": "SystemVerilog verification environment",
+  "price": 189900
+ },
+ "R51": {
+  "title": "Wave-to-move hand-wave car",
+  "price": 129900
+ },
+ "R52": {
+  "title": "Smart blind stick with obstacle buzzer",
+  "price": 139900
+ },
+ "R53": {
+  "title": "Automatic hand sanitizer dispenser robot",
+  "price": 149900
+ },
+ "R54": {
+  "title": "Touch-controlled robot car",
+  "price": 159900
+ },
+ "R55": {
+  "title": "Magnetic-sensor wheel counter bot",
+  "price": 169900
+ },
+ "R56": {
+  "title": "Cardboard robotic arm with syringe hydraulics",
+  "price": 129900
+ },
+ "R57": {
+  "title": "Pet-feeder robot with servo gate",
+  "price": 139900
+ },
+ "R58": {
+  "title": "Temperature-aware cooling fan robot",
+  "price": 149900
+ },
+ "R59": {
+  "title": "Rotating radar with buzzer alert",
+  "price": 159900
+ },
+ "R60": {
+  "title": "Mini bulldozer with servo blade",
+  "price": 169900
+ },
+ "R61": {
+  "title": "Voice-greeting door robot",
+  "price": 129900
+ },
+ "R62": {
+  "title": "Bluetooth-controlled robotic gripper",
+  "price": 139900
+ },
+ "R63": {
+  "title": "Shadow-follower robot",
+  "price": 149900
+ },
+ "R64": {
+  "title": "Tank-drive robot with caterpillar tracks",
+  "price": 159900
+ },
+ "R65": {
+  "title": "Pocket robot with ultrasonic eyes",
+  "price": 169900
+ },
+ "R66": {
+  "title": "Table-tennis ball launcher bot",
+  "price": 129900
+ },
+ "R67": {
+  "title": "Automatic curtain opener",
+  "price": 139900
+ },
+ "R68": {
+  "title": "Smart dustbin with fill-level alert",
+  "price": 149900
+ },
+ "R69": {
+  "title": "Remote-controlled boat",
+  "price": 159900
+ },
+ "R70": {
+  "title": "Robotic cat toy with laser pointer",
+  "price": 169900
+ },
+ "R71": {
+  "title": "Knock-detecting guard robot",
+  "price": 129900
+ },
+ "R72": {
+  "title": "Mini crane with servo hoist",
+  "price": 139900
+ },
+ "R73": {
+  "title": "Self-stopping toy car",
+  "price": 149900
+ },
+ "R74": {
+  "title": "Color-detecting mini robot",
+  "price": 159900
+ },
+ "R75": {
+  "title": "Joystick pan-tilt camera mount",
+  "price": 169900
+ },
+ "R76": {
+  "title": "Automatic tap robot with IR sensor",
+  "price": 129900
+ },
+ "R77": {
+  "title": "Mini robot vacuum with brush motor",
+  "price": 139900
+ },
+ "R78": {
+  "title": "Robotic eyes that follow your hand",
+  "price": 149900
+ },
+ "R79": {
+  "title": "Robotic snake with two servos",
+  "price": 159900
+ },
+ "R80": {
+  "title": "Seesaw balancing toy robot",
+  "price": 169900
+ },
+ "R81": {
+  "title": "Robotic piano finger player",
+  "price": 129900
+ },
+ "R82": {
+  "title": "Line-drawing wheel robot",
+  "price": 139900
+ },
+ "R83": {
+  "title": "Night patrol robot with LED lights",
+  "price": 149900
+ },
+ "R84": {
+  "title": "RFID-controlled robot car",
+  "price": 249900
+ },
+ "R85": {
+  "title": "Bluetooth-controlled robotic arm",
+  "price": 259900
+ },
+ "R86": {
+  "title": "Automatic floor-cleaning robot",
+  "price": 269900
+ },
+ "R87": {
+  "title": "Flex-sensor gesture robotic arm",
+  "price": 279900
+ },
+ "R88": {
+  "title": "Gas-sensing patrol robot",
+  "price": 289900
+ },
+ "R89": {
+  "title": "Farm monitoring robot with temperature and humidity logging",
+  "price": 249900
+ },
+ "R90": {
+  "title": "Seed-sowing agriculture robot",
+  "price": 259900
+ },
+ "R91": {
+  "title": "Smart trolley that follows the shopper",
+  "price": 269900
+ },
+ "R92": {
+  "title": "Metal-detecting robot",
+  "price": 279900
+ },
+ "R93": {
+  "title": "Voice-controlled robotic arm",
+  "price": 289900
+ },
+ "R94": {
+  "title": "Delivery robot with line and obstacle sensing",
+  "price": 249900
+ },
+ "R95": {
+  "title": "Line follower with junction detection",
+  "price": 259900
+ },
+ "R96": {
+  "title": "Robot lawn mower prototype",
+  "price": 269900
+ },
+ "R97": {
+  "title": "Solar-powered rover",
+  "price": 279900
+ },
+ "R98": {
+  "title": "Stair-climbing robot prototype",
+  "price": 289900
+ },
+ "R99": {
+  "title": "Hazard-inspection rover with robotic arm",
+  "price": 249900
+ },
+ "R100": {
+  "title": "Automatic parking-gate robot",
+  "price": 259900
+ },
+ "R101": {
+  "title": "Barcode-scanning shelf robot",
+  "price": 269900
+ },
+ "R102": {
+  "title": "Mobile robot with Wi-Fi telemetry dashboard",
+  "price": 279900
+ },
+ "R103": {
+  "title": "Android-controlled camera robot",
+  "price": 289900
+ },
+ "R104": {
+  "title": "Robotic fish with tail servo",
+  "price": 249900
+ },
+ "R105": {
+  "title": "Tracked tank with turret",
+  "price": 259900
+ },
+ "R106": {
+  "title": "Pill-dispensing robot",
+  "price": 269900
+ },
+ "R107": {
+  "title": "Smart waste-segregating robot",
+  "price": 279900
+ },
+ "R108": {
+  "title": "Obstacle-aware robotic arm",
+  "price": 289900
+ },
+ "R109": {
+  "title": "Radar-based mapping rover",
+  "price": 249900
+ },
+ "R110": {
+  "title": "Rocker-bogie rover chassis",
+  "price": 259900
+ },
+ "R111": {
+  "title": "Window-cleaning robot prototype",
+  "price": 269900
+ },
+ "R112": {
+  "title": "Table-tennis ball picker",
+  "price": 279900
+ },
+ "R113": {
+  "title": "Robot car with automatic headlights and wipers",
+  "price": 289900
+ },
+ "R114": {
+  "title": "Hospital medicine-delivery robot",
+  "price": 249900
+ },
+ "R115": {
+  "title": "Gesture-controlled wheelchair prototype",
+  "price": 259900
+ },
+ "R116": {
+  "title": "Chess-move indicator robot arm",
+  "price": 269900
+ },
+ "R117": {
+  "title": "Joystick-controlled excavator model",
+  "price": 279900
+ },
+ "R118": {
+  "title": "Autonomous agricultural robot with soil sensing",
+  "price": 549900
+ },
+ "R119": {
+  "title": "SLAM-based indoor delivery robot",
+  "price": 559900
+ },
+ "R120": {
+  "title": "AI-powered waste-sorting robotic arm",
+  "price": 569900
+ },
+ "R121": {
+  "title": "Autonomous drone with GPS waypoint navigation",
+  "price": 579900
+ },
+ "R122": {
+  "title": "Human-following robot with computer vision",
+  "price": 589900
+ },
+ "R123": {
+  "title": "Disaster-rescue robot with live video and gas sensing",
+  "price": 549900
+ },
+ "R124": {
+  "title": "Robotic wheelchair with obstacle avoidance and voice control",
+  "price": 559900
+ },
+ "R125": {
+  "title": "Autonomous underwater vehicle prototype",
+  "price": 569900
+ },
+ "R126": {
+  "title": "Fruit-picking robotic arm with vision",
+  "price": 579900
+ },
+ "R127": {
+  "title": "Autonomous hospital supply robot with map-based navigation",
+  "price": 589900
+ },
+ "R128": {
+  "title": "Solar panel cleaning robot",
+  "price": 549900
+ },
+ "R129": {
+  "title": "Robotic glove for hand rehabilitation",
+  "price": 559900
+ },
+ "R130": {
+  "title": "Autonomous parking robot with vision",
+  "price": 569900
+ },
+ "R131": {
+  "title": "Multi-robot swarm coordination system",
+  "price": 579900
+ },
+ "R132": {
+  "title": "Reinforcement-learning balancing robot",
+  "price": 589900
+ },
+ "R133": {
+  "title": "Autonomous racing car with lane detection",
+  "price": 549900
+ },
+ "R134": {
+  "title": "Wall-climbing inspection robot",
+  "price": 559900
+ },
+ "R135": {
+  "title": "EEG-controlled robotic arm",
+  "price": 569900
+ },
+ "R136": {
+  "title": "Autonomous greenhouse monitoring rover",
+  "price": 579900
+ },
+ "R137": {
+  "title": "Telepresence robot controlled over the internet",
+  "price": 589900
+ },
+ "R138": {
+  "title": "Gesture and speech controlled humanoid upper body",
+  "price": 549900
+ },
+ "R139": {
+  "title": "Warehouse inventory robot with RFID",
+  "price": 559900
+ },
+ "R140": {
+  "title": "Robotic arm that draws portraits from images",
+  "price": 569900
+ },
+ "R141": {
+  "title": "Cable-driven robot camera system",
+  "price": 579900
+ },
+ "R142": {
+  "title": "Autonomous lawn mower with GPS boundary",
+  "price": 589900
+ },
+ "R143": {
+  "title": "Pipe leak-detection crawler",
+  "price": 549900
+ },
+ "R144": {
+  "title": "Quadruped robot dog with gait control",
+  "price": 559900
+ },
+ "R145": {
+  "title": "Robot barista arm for serving drinks",
+  "price": 569900
+ },
+ "R146": {
+  "title": "Indoor navigation robot to guide the visually impaired",
+  "price": 579900
+ },
+ "R147": {
+  "title": "Fire-fighting drone prototype with thermal camera",
+  "price": 589900
+ },
+ "R148": {
+  "title": "Automated storage and retrieval system model",
+  "price": 549900
+ },
+ "R149": {
+  "title": "Self-driving toy car using deep learning",
+  "price": 559900
+ },
+ "R150": {
+  "title": "Solar-tracking rover for terrain mapping",
+  "price": 569900
+ },
+ "E51": {
+  "title": "Digital thermometer with fever alert",
+  "price": 89900
+ },
+ "E52": {
+  "title": "LDR-based street light controller",
+  "price": 99900
+ },
+ "E53": {
+  "title": "Electronic lock with push buttons",
+  "price": 109900
+ },
+ "E54": {
+  "title": "Smart school bell timer",
+  "price": 119900
+ },
+ "E55": {
+  "title": "Water-level indicator with LEDs",
+  "price": 129900
+ },
+ "E56": {
+  "title": "Tilt alarm for bags",
+  "price": 89900
+ },
+ "E57": {
+  "title": "Mini weighing scale with load cell",
+  "price": 99900
+ },
+ "E58": {
+  "title": "People counter with IR sensor",
+  "price": 109900
+ },
+ "E59": {
+  "title": "Stepper motor controller",
+  "price": 119900
+ },
+ "E60": {
+  "title": "Smart doorbell with melody",
+  "price": 129900
+ },
+ "E61": {
+  "title": "Humidity monitor with LCD",
+  "price": 89900
+ },
+ "E62": {
+  "title": "Simple capacitance meter",
+  "price": 99900
+ },
+ "E63": {
+  "title": "Room light dimmer with PWM",
+  "price": 109900
+ },
+ "E64": {
+  "title": "Fire alarm with flame sensor",
+  "price": 119900
+ },
+ "E65": {
+  "title": "Sound-activated light switch",
+  "price": 129900
+ },
+ "E66": {
+  "title": "LED running text display",
+  "price": 89900
+ },
+ "E67": {
+  "title": "Simple function generator",
+  "price": 99900
+ },
+ "E68": {
+  "title": "Battery level indicator",
+  "price": 109900
+ },
+ "E69": {
+  "title": "Sunrise alarm clock with gradual light",
+  "price": 119900
+ },
+ "E70": {
+  "title": "3x3x3 LED cube",
+  "price": 129900
+ },
+ "E71": {
+  "title": "Reaction timer game",
+  "price": 89900
+ },
+ "E72": {
+  "title": "Touch lamp using capacitive sensing",
+  "price": 99900
+ },
+ "E73": {
+  "title": "Smart pill reminder with buzzer",
+  "price": 109900
+ },
+ "E74": {
+  "title": "Reverse parking sensor",
+  "price": 119900
+ },
+ "E75": {
+  "title": "Smart wardrobe light with door sensor",
+  "price": 129900
+ },
+ "E76": {
+  "title": "Music box with buzzer tunes",
+  "price": 89900
+ },
+ "E77": {
+  "title": "Pedometer with accelerometer",
+  "price": 99900
+ },
+ "E78": {
+  "title": "Automatic fan speed regulator",
+  "price": 109900
+ },
+ "E79": {
+  "title": "Plant light meter",
+  "price": 119900
+ },
+ "E80": {
+  "title": "Seven-segment countdown timer",
+  "price": 129900
+ },
+ "E81": {
+  "title": "Remote-controlled LED strip",
+  "price": 89900
+ },
+ "E82": {
+  "title": "Laser security alarm",
+  "price": 99900
+ },
+ "E83": {
+  "title": "Digital compass display",
+  "price": 109900
+ },
+ "E84": {
+  "title": "Water flow meter",
+  "price": 119900
+ },
+ "E85": {
+  "title": "Voice-controlled smart home hub",
+  "price": 199900
+ },
+ "E86": {
+  "title": "IoT air quality monitor",
+  "price": 209900
+ },
+ "E87": {
+  "title": "Smart parking system with slot display",
+  "price": 219900
+ },
+ "E88": {
+  "title": "Biometric attendance with cloud sheet",
+  "price": 229900
+ },
+ "E89": {
+  "title": "Health monitoring band with BLE",
+  "price": 239900
+ },
+ "E90": {
+  "title": "Vehicle accident alert with GPS and GSM",
+  "price": 199900
+ },
+ "E91": {
+  "title": "Smart dustbin with SMS alert",
+  "price": 209900
+ },
+ "E92": {
+  "title": "IoT water quality monitor",
+  "price": 219900
+ },
+ "E93": {
+  "title": "Wireless notice board over Wi-Fi",
+  "price": 229900
+ },
+ "E94": {
+  "title": "Digital weighing scale with Bluetooth",
+  "price": 239900
+ },
+ "E95": {
+  "title": "Smart irrigation with weather logic",
+  "price": 199900
+ },
+ "E96": {
+  "title": "GSM-based home security",
+  "price": 209900
+ },
+ "E97": {
+  "title": "Solar charge controller with display",
+  "price": 219900
+ },
+ "E98": {
+  "title": "Cold-chain temperature logger",
+  "price": 229900
+ },
+ "E99": {
+  "title": "Smart street light with traffic sensing",
+  "price": 239900
+ },
+ "E100": {
+  "title": "Bluetooth proximity door unlock",
+  "price": 199900
+ },
+ "E101": {
+  "title": "Wireless remote with nRF24 modules",
+  "price": 209900
+ },
+ "E102": {
+  "title": "Smart cradle with sound-triggered rocking",
+  "price": 219900
+ },
+ "E103": {
+  "title": "Machine health monitor with vibration sensing",
+  "price": 229900
+ },
+ "E104": {
+  "title": "Electronic voting machine model",
+  "price": 239900
+ },
+ "E105": {
+  "title": "Smart shopping cart with RFID billing",
+  "price": 199900
+ },
+ "E106": {
+  "title": "Capacitive touch keypad lock",
+  "price": 209900
+ },
+ "E107": {
+  "title": "Wi-Fi-controlled RGB lighting",
+  "price": 219900
+ },
+ "E108": {
+  "title": "Automatic bell with RTC scheduler",
+  "price": 229900
+ },
+ "E109": {
+  "title": "Fuel level monitor with display",
+  "price": 239900
+ },
+ "E110": {
+  "title": "Smart helmet with accident detection",
+  "price": 199900
+ },
+ "E111": {
+  "title": "Gesture-controlled presentation clicker",
+  "price": 209900
+ },
+ "E112": {
+  "title": "Wireless energy-meter reader",
+  "price": 219900
+ },
+ "E113": {
+  "title": "ECG signal acquisition and display",
+  "price": 229900
+ },
+ "E114": {
+  "title": "Cloud-connected soil monitor",
+  "price": 239900
+ },
+ "E115": {
+  "title": "Digital notice board updated by GSM",
+  "price": 199900
+ },
+ "E116": {
+  "title": "Traffic signal with vehicle density sensing",
+  "price": 209900
+ },
+ "E117": {
+  "title": "Wi-Fi smart plug with power monitoring",
+  "price": 219900
+ },
+ "E118": {
+  "title": "IoT smart agriculture system with cloud analytics",
+  "price": 399900
+ },
+ "E119": {
+  "title": "Smart grid monitoring with energy forecasting",
+  "price": 409900
+ },
+ "E120": {
+  "title": "Real-time patient monitoring with alerts",
+  "price": 419900
+ },
+ "E121": {
+  "title": "Vehicle tracking and anti-theft system",
+  "price": 429900
+ },
+ "E122": {
+  "title": "Edge-AI predictive maintenance node",
+  "price": 439900
+ },
+ "E123": {
+  "title": "Campus attendance with face recognition on ESP32-CAM",
+  "price": 399900
+ },
+ "E124": {
+  "title": "Industrial IoT gateway with dashboards",
+  "price": 409900
+ },
+ "E125": {
+  "title": "Wearable fall-detection device",
+  "price": 419900
+ },
+ "E126": {
+  "title": "Energy-efficient building controller",
+  "price": 429900
+ },
+ "E127": {
+  "title": "Autonomous irrigation with machine-learning forecasts",
+  "price": 439900
+ },
+ "E128": {
+  "title": "EV battery management system prototype",
+  "price": 399900
+ },
+ "E129": {
+  "title": "Wireless EV charging demonstrator",
+  "price": 409900
+ },
+ "E130": {
+  "title": "Driver drowsiness detection system",
+  "price": 419900
+ },
+ "E131": {
+  "title": "Smart wheelchair with health monitoring",
+  "price": 429900
+ },
+ "E132": {
+  "title": "LoRaWAN flood early-warning system",
+  "price": 439900
+ },
+ "E133": {
+  "title": "Tamper-evident logging for cold storage",
+  "price": 399900
+ },
+ "E134": {
+  "title": "Smart meter with prepaid billing",
+  "price": 409900
+ },
+ "E135": {
+  "title": "Hand-gesture recognition on a microcontroller",
+  "price": 419900
+ },
+ "E136": {
+  "title": "Smart helmet with crash detection and rescue alert",
+  "price": 429900
+ },
+ "E137": {
+  "title": "Remote ECG monitoring over the cloud",
+  "price": 439900
+ },
+ "E138": {
+  "title": "Voice-assistant device on ESP32",
+  "price": 399900
+ },
+ "E139": {
+  "title": "Real-time power quality analyzer",
+  "price": 409900
+ },
+ "E140": {
+  "title": "Smart waste management with route optimization",
+  "price": 419900
+ },
+ "E141": {
+  "title": "Environmental monitoring buoy",
+  "price": 429900
+ },
+ "E142": {
+  "title": "CubeSat-style telemetry model",
+  "price": 439900
+ },
+ "E143": {
+  "title": "Smart lock with BLE and rolling codes",
+  "price": 399900
+ },
+ "E144": {
+  "title": "Multi-sensor weather balloon payload",
+  "price": 409900
+ },
+ "E145": {
+  "title": "Motor monitoring with fault prediction",
+  "price": 419900
+ },
+ "E146": {
+  "title": "Smart traffic management with emergency vehicle priority",
+  "price": 429900
+ },
+ "E147": {
+  "title": "Solar microgrid controller with MPPT",
+  "price": 439900
+ },
+ "E148": {
+  "title": "Gesture-controlled smart home hub",
+  "price": 399900
+ },
+ "E149": {
+  "title": "Wireless sensor network with mesh routing",
+  "price": 409900
+ },
+ "E150": {
+  "title": "Portable ECG and SpO2 monitor with app",
+  "price": 419900
+ },
+ "V51": {
+  "title": "Half and full subtractor",
+  "price": 249900
+ },
+ "V52": {
+  "title": "2-bit comparator",
+  "price": 259900
+ },
+ "V53": {
+  "title": "3-to-8 decoder",
+  "price": 269900
+ },
+ "V54": {
+  "title": "8-to-1 multiplexer",
+  "price": 279900
+ },
+ "V55": {
+  "title": "4-bit parity checker with LED",
+  "price": 289900
+ },
+ "V56": {
+  "title": "SR latch and gated latch",
+  "price": 249900
+ },
+ "V57": {
+  "title": "Master-slave flip-flop",
+  "price": 259900
+ },
+ "V58": {
+  "title": "4-bit binary counter",
+  "price": 269900
+ },
+ "V59": {
+  "title": "Mod-10 decade counter",
+  "price": 279900
+ },
+ "V60": {
+  "title": "Ring counter",
+  "price": 289900
+ },
+ "V61": {
+  "title": "Johnson counter",
+  "price": 249900
+ },
+ "V62": {
+  "title": "4-bit shift register with load",
+  "price": 259900
+ },
+ "V63": {
+  "title": "Binary to BCD converter",
+  "price": 269900
+ },
+ "V64": {
+  "title": "BCD to seven-segment display",
+  "price": 279900
+ },
+ "V65": {
+  "title": "Two-digit counter on seven-segment",
+  "price": 289900
+ },
+ "V66": {
+  "title": "Clap switch logic",
+  "price": 249900
+ },
+ "V67": {
+  "title": "Traffic signal with pedestrian button",
+  "price": 259900
+ },
+ "V68": {
+  "title": "Simple door lock FSM",
+  "price": 269900
+ },
+ "V69": {
+  "title": "LED blink with adjustable speed",
+  "price": 279900
+ },
+ "V70": {
+  "title": "4-bit adder-subtractor",
+  "price": 289900
+ },
+ "V71": {
+  "title": "Magnitude comparator display",
+  "price": 249900
+ },
+ "V72": {
+  "title": "Majority-vote circuit",
+  "price": 259900
+ },
+ "V73": {
+  "title": "Odd-even number detector",
+  "price": 269900
+ },
+ "V74": {
+  "title": "Vending logic with two coins",
+  "price": 279900
+ },
+ "V75": {
+  "title": "2-bit multiplier",
+  "price": 289900
+ },
+ "V76": {
+  "title": "Small 4x4 RAM",
+  "price": 249900
+ },
+ "V77": {
+  "title": "ROM lookup table display",
+  "price": 259900
+ },
+ "V78": {
+  "title": "Digital lock with 4-bit code",
+  "price": 269900
+ },
+ "V79": {
+  "title": "Dice roller with LFSR",
+  "price": 279900
+ },
+ "V80": {
+  "title": "Frequency divider with selectable ratio",
+  "price": 289900
+ },
+ "V81": {
+  "title": "Rotating LED display pattern",
+  "price": 249900
+ },
+ "V82": {
+  "title": "Water tank controller logic",
+  "price": 259900
+ },
+ "V83": {
+  "title": "Tic-tac-toe winner detector",
+  "price": 269900
+ },
+ "V84": {
+  "title": "8-bit ALU with flags",
+  "price": 449900
+ },
+ "V85": {
+  "title": "Wallace-tree multiplier",
+  "price": 459900
+ },
+ "V86": {
+  "title": "Carry-lookahead adder",
+  "price": 469900
+ },
+ "V87": {
+  "title": "Carry-select adder",
+  "price": 479900
+ },
+ "V88": {
+  "title": "Restoring divider",
+  "price": 489900
+ },
+ "V89": {
+  "title": "16-bit shift-add multiplier",
+  "price": 449900
+ },
+ "V90": {
+  "title": "UART with baud-rate generator and FIFO",
+  "price": 459900
+ },
+ "V91": {
+  "title": "SPI flash reader",
+  "price": 469900
+ },
+ "V92": {
+  "title": "I2C temperature-sensor reader",
+  "price": 479900
+ },
+ "V93": {
+  "title": "PWM-controlled servo driver",
+  "price": 489900
+ },
+ "V94": {
+  "title": "Digital clock with alarm",
+  "price": 449900
+ },
+ "V95": {
+  "title": "LCD controller",
+  "price": 459900
+ },
+ "V96": {
+  "title": "Keypad scanner with debouncing",
+  "price": 469900
+ },
+ "V97": {
+  "title": "VGA text display",
+  "price": 479900
+ },
+ "V98": {
+  "title": "Round-robin arbiter",
+  "price": 489900
+ },
+ "V99": {
+  "title": "Dual-port RAM",
+  "price": 449900
+ },
+ "V100": {
+  "title": "Register file with two read ports",
+  "price": 459900
+ },
+ "V101": {
+  "title": "Instruction decoder for a simple CPU",
+  "price": 469900
+ },
+ "V102": {
+  "title": "Stack and queue memory units",
+  "price": 479900
+ },
+ "V103": {
+  "title": "Four-way junction traffic controller",
+  "price": 489900
+ },
+ "V104": {
+  "title": "ATM controller FSM",
+  "price": 449900
+ },
+ "V105": {
+  "title": "Parking-slot management FSM",
+  "price": 459900
+ },
+ "V106": {
+  "title": "Moving-average filter",
+  "price": 469900
+ },
+ "V107": {
+  "title": "Ultrasonic pulse-width reader",
+  "price": 479900
+ },
+ "V108": {
+  "title": "Manchester encoder and decoder",
+  "price": 489900
+ },
+ "V109": {
+  "title": "CRC generator and checker",
+  "price": 449900
+ },
+ "V110": {
+  "title": "Hamming code encoder and decoder",
+  "price": 459900
+ },
+ "V111": {
+  "title": "Frequency counter",
+  "price": 469900
+ },
+ "V112": {
+  "title": "Binary-to-decimal converter with double-dabble",
+  "price": 479900
+ },
+ "V113": {
+  "title": "Sine-wave generator using lookup table",
+  "price": 489900
+ },
+ "V114": {
+  "title": "Digital lock with timeout FSM",
+  "price": 449900
+ },
+ "V115": {
+  "title": "SPI-controlled ADC reader",
+  "price": 459900
+ },
+ "V116": {
+  "title": "Snake game on VGA",
+  "price": 469900
+ },
+ "V117": {
+  "title": "32-bit RISC-V processor with interrupts",
+  "price": 749900
+ },
+ "V118": {
+  "title": "Superscalar processor model",
+  "price": 759900
+ },
+ "V119": {
+  "title": "Branch predictor design",
+  "price": 769900
+ },
+ "V120": {
+  "title": "Multi-core RISC-V with shared memory",
+  "price": 779900
+ },
+ "V121": {
+  "title": "Network-on-chip router",
+  "price": 789900
+ },
+ "V122": {
+  "title": "Memory controller with request scheduling",
+  "price": 749900
+ },
+ "V123": {
+  "title": "USB 2.0 device controller",
+  "price": 759900
+ },
+ "V124": {
+  "title": "PCIe-lite endpoint model",
+  "price": 769900
+ },
+ "V125": {
+  "title": "JPEG encoder on FPGA",
+  "price": 779900
+ },
+ "V126": {
+  "title": "Motion estimation block for video",
+  "price": 789900
+ },
+ "V127": {
+  "title": "Neural-network inference engine",
+  "price": 749900
+ },
+ "V128": {
+  "title": "Systolic-array matrix multiplier",
+  "price": 759900
+ },
+ "V129": {
+  "title": "SHA-256 hashing core",
+  "price": 769900
+ },
+ "V130": {
+  "title": "RSA modular exponentiation core",
+  "price": 779900
+ },
+ "V131": {
+  "title": "Low-power SRAM design in SkyWater 130 nm",
+  "price": 789900
+ },
+ "V132": {
+  "title": "8-bit SAR ADC layout and simulation",
+  "price": 749900
+ },
+ "V133": {
+  "title": "Phase-locked loop design",
+  "price": 759900
+ },
+ "V134": {
+  "title": "Bandgap reference circuit design",
+  "price": 769900
+ },
+ "V135": {
+  "title": "Op-amp design and layout",
+  "price": 779900
+ },
+ "V136": {
+  "title": "Standard-cell library characterization",
+  "price": 789900
+ },
+ "V137": {
+  "title": "Tape-out-ready design with OpenLane",
+  "price": 749900
+ },
+ "V138": {
+  "title": "Formal verification of a RISC-V core",
+  "price": 759900
+ },
+ "V139": {
+  "title": "UVM testbench for an AXI interconnect",
+  "price": 769900
+ },
+ "V140": {
+  "title": "Hardware-software co-design on Zynq",
+  "price": 779900
+ },
+ "V141": {
+  "title": "FPGA-based software-defined radio",
+  "price": 789900
+ },
+ "V142": {
+  "title": "Real-time object detection on FPGA",
+  "price": 749900
+ },
+ "V143": {
+  "title": "LDPC decoder",
+  "price": 759900
+ },
+ "V144": {
+  "title": "Reed-Solomon encoder and decoder",
+  "price": 769900
+ },
+ "V145": {
+  "title": "Image compression accelerator",
+  "price": 779900
+ },
+ "V146": {
+  "title": "MIPS pipeline with forwarding unit",
+  "price": 789900
+ },
+ "V147": {
+  "title": "Low-power clock-gating design study",
+  "price": 749900
+ },
+ "V148": {
+  "title": "Video scaler and display controller",
+  "price": 759900
+ },
+ "V149": {
+  "title": "Audio synthesizer on FPGA",
+  "price": 769900
+ },
+ "V150": {
+  "title": "Design-for-test with scan chain insertion",
+  "price": 779900
+ }
+}
