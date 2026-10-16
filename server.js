@@ -3,7 +3,6 @@ const express = require('express');
 const cors = require('cors');
 const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
-const nodemailer = require('nodemailer');
 const Database = require('better-sqlite3');
 const jwt = require('jsonwebtoken');
 const rateLimit = require('express-rate-limit');
@@ -16,20 +15,20 @@ app.use(express.json({ limit: '32kb' }));
 
 const allowedOrigins = (process.env.FRONTEND_ORIGIN || '')
   .split(',')
-  .map(origin => origin.trim())
+  .map(x => x.trim())
   .filter(Boolean);
 
 app.use(cors({
   origin(origin, callback) {
     if (
       !origin ||
-      allowedOrigins.length === 0 ||
+      !allowedOrigins.length ||
       allowedOrigins.includes(origin)
     ) {
       return callback(null, true);
     }
 
-    return callback(new Error('Origin not allowed by CORS'));
+    callback(new Error('Origin not allowed by CORS'));
   },
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
@@ -61,29 +60,11 @@ db.exec(`
   );
 `);
 
-const emailReady = Boolean(
-  process.env.SMTP_HOST &&
-  process.env.SMTP_USER &&
-  process.env.SMTP_PASS &&
-  process.env.MAIL_FROM
-);
-
-const mailer = emailReady
-  ? nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT || 465),
-      secure: String(process.env.SMTP_SECURE || 'true') === 'true',
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS
-      },
-      connectionTimeout: 10000,
-      greetingTimeout: 10000,
-      socketTimeout: 15000
-    })
-  : null;
-
 const jwtSecret = process.env.JWT_SECRET;
+const resendApiKey = process.env.RESEND_API_KEY;
+const mailFrom = process.env.MAIL_FROM;
+
+const emailReady = Boolean(resendApiKey && mailFrom);
 
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -109,31 +90,67 @@ function validEmail(email) {
 }
 
 function escapeHtml(value) {
-  return String(value).replace(/[&<>"']/g, char => ({
+  return String(value).replace(/[&<>"']/g, c => ({
     '&': '&amp;',
     '<': '&lt;',
     '>': '&gt;',
     '"': '&quot;',
     "'": '&#39;'
-  })[char]);
+  })[c]);
 }
 
 function codeHash(email, code) {
   return crypto
     .createHash('sha256')
-    .update(`${email}:${code}:${process.env.JWT_SECRET}`)
+    .update(`${email}:${code}:${jwtSecret}`)
     .digest('hex');
 }
 
 function createToken(user) {
   return jwt.sign(
-    {
-      userId: user.id,
-      email: user.email
-    },
+    { userId: user.id, email: user.email },
     jwtSecret,
     { expiresIn: '7d' }
   );
+}
+
+async function sendVerificationEmail(email, name, code) {
+  const response = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${resendApiKey}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      from: mailFrom,
+      to: [email],
+      subject: 'Your KitBench verification code',
+      text:
+        `Hello ${name},\n\n` +
+        `Your KitBench verification code is ${code}. ` +
+        'It expires in 10 minutes.',
+      html:
+        `<p>Hello ${escapeHtml(name)},</p>` +
+        '<p>Your KitBench verification code is:</p>' +
+        `<p style="font-size:28px;font-weight:bold">${code}</p>` +
+        '<p>This code expires in 10 minutes.</p>'
+    }),
+    signal: AbortSignal.timeout(15000)
+  });
+
+  const result = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    console.error(
+      '[register] Resend API error:',
+      response.status,
+      result.message || result.name || 'Email request failed'
+    );
+
+    throw new Error('Resend could not send the email.');
+  }
+
+  console.log('[register] Resend accepted email request');
 }
 
 app.get('/health', (_req, res) => {
@@ -147,7 +164,6 @@ app.get('/health', (_req, res) => {
   });
 });
 
-// REGISTER: sends an email verification code.
 app.post('/api/auth/register', async (req, res) => {
   console.log('[register] request received');
 
@@ -189,12 +205,12 @@ app.post('/api/auth/register', async (req, res) => {
       return sendError(res, 400, 'Passwords do not match.');
     }
 
-    if (!emailReady || !mailer) {
-      return sendError(res, 503, 'Email service is not configured.');
+    if (!emailReady) {
+      return sendError(res, 503, 'Resend email settings are incomplete.');
     }
 
     if (!jwtSecret || jwtSecret.length < 32) {
-      return sendError(res, 503, 'Server authentication setup is incomplete.');
+      return sendError(res, 503, 'JWT_SECRET is missing or too short.');
     }
 
     const existing = db.prepare(
@@ -236,46 +252,35 @@ app.post('/api/auth/register', async (req, res) => {
       now
     );
 
-    console.log('[register] starting email send');
+    console.log('[register] starting Resend email request');
 
     try {
-      await mailer.sendMail({
-        from: process.env.MAIL_FROM,
-        to: email,
-        subject: 'Your KitBench email verification code',
-        text:
-          `Hello ${name},\n\n` +
-          `Your verification code is ${code}. ` +
-          'It expires in 10 minutes.',
-        html:
-          `<p>Hello ${escapeHtml(name)},</p>` +
-          '<p>Your KitBench verification code is:</p>' +
-          `<p style="font-size:28px;font-weight:bold">${code}</p>` +
-          '<p>This code expires in 10 minutes.</p>'
-      });
-
+      await sendVerificationEmail(email, name, code);
       console.log('[register] email send completed');
-    } catch (mailErr) {
-      console.error('[register] email failed:', mailErr.message);
+    } catch (err) {
+      console.error('[register] email failed:', err.message);
 
       db.prepare(
         'DELETE FROM pending_registrations WHERE email = ?'
       ).run(email);
 
-      return sendError(res, 502, 'Could not send verification email. Check SMTP settings.');
+      return sendError(
+        res,
+        502,
+        'Could not send verification email. Check Resend settings.'
+      );
     }
 
-    return res.status(200).json({
+    return res.json({
       ok: true,
       message: 'Verification code sent. Check your email.'
     });
   } catch (err) {
     console.error('[register] failed:', err.message);
-    return sendError(res, 500, 'Could not start registration. Please try again.');
+    return sendError(res, 500, 'Registration failed. Please try again.');
   }
 });
 
-// VERIFY EMAIL: frontend must send email and the 6-digit code.
 app.post('/api/auth/verify-email', (req, res) => {
   try {
     const email = typeof req.body.email === 'string'
@@ -287,7 +292,7 @@ app.post('/api/auth/verify-email', (req, res) => {
       : '';
 
     if (!validEmail(email) || !/^\d{6}$/.test(code)) {
-      return sendError(res, 400, 'Enter a valid email and 6-digit code.');
+      return sendError(res, 400, 'Enter your email and 6-digit code.');
     }
 
     const pending = db.prepare(
@@ -311,15 +316,13 @@ app.post('/api/auth/verify-email', (req, res) => {
         'DELETE FROM pending_registrations WHERE email = ?'
       ).run(email);
 
-      return sendError(res, 429, 'Too many incorrect attempts. Please sign up again.');
+      return sendError(res, 429, 'Too many attempts. Please sign up again.');
     }
 
-    if (
-      !crypto.timingSafeEqual(
-        Buffer.from(codeHash(email, code), 'hex'),
-        Buffer.from(pending.code_hash, 'hex')
-      )
-    ) {
+    const expected = Buffer.from(pending.code_hash, 'hex');
+    const supplied = Buffer.from(codeHash(email, code), 'hex');
+
+    if (!crypto.timingSafeEqual(expected, supplied)) {
       db.prepare(
         'UPDATE pending_registrations SET attempts = attempts + 1 WHERE email = ?'
       ).run(email);
@@ -327,7 +330,7 @@ app.post('/api/auth/verify-email', (req, res) => {
       return sendError(res, 400, 'Incorrect verification code.');
     }
 
-    const result = db.prepare(`
+    db.prepare(`
       INSERT INTO users
         (name, email, password_hash, email_verified, city, created_at)
       VALUES (?, ?, ?, 1, ?, ?)
@@ -360,11 +363,10 @@ app.post('/api/auth/verify-email', (req, res) => {
     });
   } catch (err) {
     console.error('[verify-email] failed:', err.message);
-    return sendError(res, 500, 'Could not verify email. Please try again.');
+    return sendError(res, 500, 'Email verification failed.');
   }
 });
 
-// LOGIN: only verified accounts can log in.
 app.post('/api/auth/login', async (req, res) => {
   try {
     const email = typeof req.body.email === 'string'
@@ -381,8 +383,7 @@ app.post('/api/auth/login', async (req, res) => {
 
     const user = db.prepare(`
       SELECT id, name, email, password_hash, email_verified
-      FROM users
-      WHERE email = ?
+      FROM users WHERE email = ?
     `).get(email);
 
     if (!user || !(await bcrypt.compare(password, user.password_hash))) {
@@ -406,17 +407,6 @@ app.post('/api/auth/login', async (req, res) => {
     console.error('[login] failed:', err.message);
     return sendError(res, 500, 'Login failed. Please try again.');
   }
-});
-
-app.use((err, _req, res, _next) => {
-  console.error('[server] request error:', err.message);
-
-  if (res.headersSent) return;
-
-  res.status(500).json({
-    ok: false,
-    error: 'Server request failed.'
-  });
 });
 
 app.listen(PORT, () => {
