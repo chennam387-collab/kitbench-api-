@@ -46,7 +46,7 @@ const jwtSecret = process.env.JWT_SECRET;
 function validEmail(email) { return typeof email === 'string' && email.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email); }
 function codeHash(email, code) { return crypto.createHmac('sha256', process.env.OTP_SECRET || process.env.JWT_SECRET || 'configure-a-long-random-secret').update(email.toLowerCase() + ':' + code).digest('hex'); }
 function sendError(res, status, error) { return res.status(status).json({ error }); }
-app.get('/health', (_req, res) => res.json({ ok: true, emailConfigured: emailReady, emailVerificationRequired: String(process.env.REQUIRE_EMAIL_VERIFICATION || 'true').toLowerCase() !== 'false', emailMethod: brevoReady ? 'brevo-api' : (smtpReady ? 'smtp' : 'none'), paymentsConfigured: Boolean(process.env.RAZORPAY_KEY_ID && process.env.RAZORPAY_KEY_SECRET) }));
+app.get('/health', (_req, res) => res.json({ ok: true, version: 'v3-brevo', catalogItems: Object.keys(PRODUCT_CATALOG).length, emailConfigured: emailReady, emailVerificationRequired: String(process.env.REQUIRE_EMAIL_VERIFICATION || 'true').toLowerCase() !== 'false', emailMethod: brevoReady ? 'brevo-api' : (smtpReady ? 'smtp' : 'none'), paymentsConfigured: Boolean(process.env.RAZORPAY_KEY_ID && process.env.RAZORPAY_KEY_SECRET) }));
 
 // Aggregate verified student counts. City counts are shown only when at least 3 accounts share a city.
 // Project requests are stored centrally in SQLite, not in an individual student's browser.
@@ -173,7 +173,7 @@ app.post('/api/auth/login', async (req, res) => {
 const paymentsConfigured = Boolean(process.env.RAZORPAY_KEY_ID && process.env.RAZORPAY_KEY_SECRET);
 const razorpay = paymentsConfigured ? new Razorpay({ key_id: process.env.RAZORPAY_KEY_ID, key_secret: process.env.RAZORPAY_KEY_SECRET }) : null;
 // Prices (in paise) are read from catalog.json so customers cannot change them in the browser.
-const PRODUCT_CATALOG = require('./catalog.json');
+const PRODUCT_CATALOG = (() => { try { return require('./catalog.json'); } catch (e) { console.error('catalog.json is missing or invalid:', e.message); return {}; } })();
 app.post('/api/create-order', async (req, res) => {
   if (!razorpay) return sendError(res, 503, 'Razorpay is not configured on the server.');
   try {
