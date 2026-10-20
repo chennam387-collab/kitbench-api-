@@ -10,6 +10,7 @@ const rateLimit = require('express-rate-limit');
 const Razorpay = require('razorpay');
 
 const app = express();
+app.set('trust proxy', 1);
 app.disable('x-powered-by');
 app.use(express.json({ limit: '32kb' }));
 const allowedOrigins = (process.env.FRONTEND_ORIGIN || '').split(',').map(x => x.trim()).filter(Boolean);
