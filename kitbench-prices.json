@@ -1,0 +1,3156 @@
+{
+ "priceRule": "price = round(base * 0.75 / 10) * 10 - 1",
+ "factor": 0.75,
+ "kits": [
+  {
+   "id": "R01",
+   "title": "Line follower robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R02",
+   "title": "Bluetooth-controlled car",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R03",
+   "title": "Obstacle-avoiding car",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R04",
+   "title": "Light-seeking robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R05",
+   "title": "Light-avoiding robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R06",
+   "title": "Clap-controlled car",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R07",
+   "title": "Servo sweep radar",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R08",
+   "title": "IR remote-controlled car",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R09",
+   "title": "Bristlebot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R10",
+   "title": "Edge-detecting robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R11",
+   "title": "Automatic dustbin lid",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R12",
+   "title": "One-servo gripper",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R13",
+   "title": "Voice-controlled car",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R14",
+   "title": "Doodle plotter bot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R15",
+   "title": "Dancing robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R16",
+   "title": "Solar tracker",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R17",
+   "title": "Flame-detecting alarm robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R18",
+   "title": "Wall-following robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R19",
+   "title": "Maze-solving robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R20",
+   "title": "PID line follower",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R21",
+   "title": "Wi-Fi joystick robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R22",
+   "title": "Mini sumo robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R23",
+   "title": "Fire-fighting robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R24",
+   "title": "Gesture-controlled robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R25",
+   "title": "Potentiometer-controlled robotic arm",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R26",
+   "title": "Offline voice-command robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R27",
+   "title": "Camera rover",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R28",
+   "title": "Color-sorting machine",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R29",
+   "title": "Conveyor pick-and-place sorter",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R30",
+   "title": "Person-following cart",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R31",
+   "title": "Pipe-inspection crawler",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R32",
+   "title": "Quadruped spider robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R33",
+   "title": "Self-parking toy car",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R34",
+   "title": "Leader-follower robots",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R35",
+   "title": "Self-balancing robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R36",
+   "title": "6-axis arm with inverse kinematics",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R37",
+   "title": "Lidar mapping robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R38",
+   "title": "ROS 2 mobile robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R39",
+   "title": "Object-tracking robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R40",
+   "title": "Sensor-fusion rover",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R41",
+   "title": "Hexapod walker",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R42",
+   "title": "Quadcopter drone build",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R43",
+   "title": "Robotic hand",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R44",
+   "title": "Face-tracking turret",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R45",
+   "title": "Marker-navigation warehouse robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R46",
+   "title": "Mecanum-wheel robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R47",
+   "title": "Biped walking robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R48",
+   "title": "Vision-guided pick-and-place arm",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R49",
+   "title": "Micromouse maze solver",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R50",
+   "title": "Water-surface cleaning robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "E01",
+   "title": "LED pattern controller",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E02",
+   "title": "Traffic light controller",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E03",
+   "title": "Debounced push-button toggle",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E04",
+   "title": "Digital dice",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E05",
+   "title": "Temperature display",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E06",
+   "title": "Ultrasonic distance meter",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E07",
+   "title": "Door-open alarm",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E08",
+   "title": "Automatic night lamp",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E09",
+   "title": "Soil moisture indicator",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E10",
+   "title": "Rain alert system",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E11",
+   "title": "RTC digital clock",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E12",
+   "title": "Keypad door lock",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E13",
+   "title": "Buzzer piano",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E14",
+   "title": "Gas leakage detector",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E15",
+   "title": "Motion-activated light",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E16",
+   "title": "Servo-controlled door",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E17",
+   "title": "Digital voltmeter",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E18",
+   "title": "ESP32 weather station",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E19",
+   "title": "Wi-Fi relay controller",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E20",
+   "title": "RFID attendance system",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E21",
+   "title": "Fingerprint door lock",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E22",
+   "title": "Heart-rate and SpO2 monitor",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E23",
+   "title": "GPS tracker with SD logging",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E24",
+   "title": "SD-card data logger",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E25",
+   "title": "Automatic plant watering",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E26",
+   "title": "Smart energy meter",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E27",
+   "title": "Bluetooth home control",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E28",
+   "title": "Water level controller",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E29",
+   "title": "Interrupt-based stopwatch",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E30",
+   "title": "Temperature-controlled fan",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E31",
+   "title": "OLED game console",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E32",
+   "title": "IR remote appliance control",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E33",
+   "title": "Hall-sensor tachometer",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E34",
+   "title": "MQTT sensor node",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E35",
+   "title": "STM32 PID motor controller",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E36",
+   "title": "FreeRTOS data acquisition",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E37",
+   "title": "CAN bus node network",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E38",
+   "title": "Custom UART bootloader",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E39",
+   "title": "Battery monitor",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E40",
+   "title": "LoRa sensor node",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E41",
+   "title": "Keyword spotting with TinyML",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E42",
+   "title": "ESP32 over-the-air updates",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E43",
+   "title": "Custom USB device",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E44",
+   "title": "Low-frequency oscilloscope",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E45",
+   "title": "IMU attitude estimator",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E46",
+   "title": "BLDC motor controller",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E47",
+   "title": "Logic analyzer",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E48",
+   "title": "Modbus-to-MQTT gateway",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E49",
+   "title": "Register-level drivers",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E50",
+   "title": "Secure IoT device",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "V01",
+   "title": "Logic gates on FPGA",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V02",
+   "title": "Half and full adder",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V03",
+   "title": "4-bit ripple-carry adder",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V04",
+   "title": "Multiplexer and demultiplexer",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V05",
+   "title": "Encoder and decoder",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V06",
+   "title": "Seven-segment decoder",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V07",
+   "title": "Magnitude comparator",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V08",
+   "title": "Flip-flops",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V09",
+   "title": "Up/down counter",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V10",
+   "title": "Shift registers",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V11",
+   "title": "Clock divider",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V12",
+   "title": "Button debouncer",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V13",
+   "title": "Traffic light FSM",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V14",
+   "title": "LED chaser",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V15",
+   "title": "Parity generator and checker",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V16",
+   "title": "Binary to Gray code converter",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V17",
+   "title": "4-bit ALU",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V18",
+   "title": "Sequence detector FSM",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V19",
+   "title": "UART transmitter and receiver",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V20",
+   "title": "SPI master and slave",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V21",
+   "title": "I2C master controller",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V22",
+   "title": "VGA pattern generator",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V23",
+   "title": "PWM generator",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V24",
+   "title": "Synchronous FIFO",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V25",
+   "title": "Asynchronous FIFO",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V26",
+   "title": "Booth multiplier",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V27",
+   "title": "Barrel shifter",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V28",
+   "title": "FPGA stopwatch",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V29",
+   "title": "Vending machine controller",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V30",
+   "title": "PS/2 keyboard interface",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V31",
+   "title": "FIR filter",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V32",
+   "title": "LFSR random generator",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V33",
+   "title": "Elevator controller",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V34",
+   "title": "Pong on VGA",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V35",
+   "title": "8-bit RISC processor",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V36",
+   "title": "5-stage pipelined RISC-V core",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V37",
+   "title": "RISC-V mini SoC",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V38",
+   "title": "AXI4-Lite peripheral",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V39",
+   "title": "Direct-mapped cache controller",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  },
+  {
+   "id": "V40",
+   "title": "Floating-point adder and multiplier",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V41",
+   "title": "CORDIC processor",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V42",
+   "title": "FFT accelerator",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V43",
+   "title": "Basic Ethernet MAC",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V44",
+   "title": "SDRAM controller",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  },
+  {
+   "id": "V45",
+   "title": "HDMI or DVI video output",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V46",
+   "title": "Edge-detection pipeline",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V47",
+   "title": "Small CNN accelerator",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V48",
+   "title": "AES encryption core",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V49",
+   "title": "RTL-to-GDSII flow",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 1349
+  },
+  {
+   "id": "V50",
+   "title": "SystemVerilog verification environment",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 1419
+  },
+  {
+   "id": "R51",
+   "title": "Wave-to-move hand-wave car",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R52",
+   "title": "Smart blind stick with obstacle buzzer",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R53",
+   "title": "Automatic hand sanitizer dispenser robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R54",
+   "title": "Touch-controlled robot car",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R55",
+   "title": "Magnetic-sensor wheel counter bot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R56",
+   "title": "Cardboard robotic arm with syringe hydraulics",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R57",
+   "title": "Pet-feeder robot with servo gate",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R58",
+   "title": "Temperature-aware cooling fan robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R59",
+   "title": "Rotating radar with buzzer alert",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R60",
+   "title": "Mini bulldozer with servo blade",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R61",
+   "title": "Voice-greeting door robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R62",
+   "title": "Bluetooth-controlled robotic gripper",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R63",
+   "title": "Shadow-follower robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R64",
+   "title": "Tank-drive robot with caterpillar tracks",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R65",
+   "title": "Pocket robot with ultrasonic eyes",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R66",
+   "title": "Table-tennis ball launcher bot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R67",
+   "title": "Automatic curtain opener",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R68",
+   "title": "Smart dustbin with fill-level alert",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R69",
+   "title": "Remote-controlled boat",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R70",
+   "title": "Robotic cat toy with laser pointer",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R71",
+   "title": "Knock-detecting guard robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R72",
+   "title": "Mini crane with servo hoist",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R73",
+   "title": "Self-stopping toy car",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R74",
+   "title": "Color-detecting mini robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R75",
+   "title": "Joystick pan-tilt camera mount",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R76",
+   "title": "Automatic tap robot with IR sensor",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R77",
+   "title": "Mini robot vacuum with brush motor",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R78",
+   "title": "Robotic eyes that follow your hand",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R79",
+   "title": "Robotic snake with two servos",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1199
+  },
+  {
+   "id": "R80",
+   "title": "Seesaw balancing toy robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1269
+  },
+  {
+   "id": "R81",
+   "title": "Robotic piano finger player",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "R82",
+   "title": "Line-drawing wheel robot",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1049
+  },
+  {
+   "id": "R83",
+   "title": "Night patrol robot with LED lights",
+   "area": "robotics",
+   "level": "Level 1: Mini",
+   "price": 1119
+  },
+  {
+   "id": "R84",
+   "title": "RFID-controlled robot car",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R85",
+   "title": "Bluetooth-controlled robotic arm",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R86",
+   "title": "Automatic floor-cleaning robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R87",
+   "title": "Flex-sensor gesture robotic arm",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R88",
+   "title": "Gas-sensing patrol robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R89",
+   "title": "Farm monitoring robot with temperature and humidity logging",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R90",
+   "title": "Seed-sowing agriculture robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R91",
+   "title": "Smart trolley that follows the shopper",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R92",
+   "title": "Metal-detecting robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R93",
+   "title": "Voice-controlled robotic arm",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R94",
+   "title": "Delivery robot with line and obstacle sensing",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R95",
+   "title": "Line follower with junction detection",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R96",
+   "title": "Robot lawn mower prototype",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R97",
+   "title": "Solar-powered rover",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R98",
+   "title": "Stair-climbing robot prototype",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R99",
+   "title": "Hazard-inspection rover with robotic arm",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R100",
+   "title": "Automatic parking-gate robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R101",
+   "title": "Barcode-scanning shelf robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R102",
+   "title": "Mobile robot with Wi-Fi telemetry dashboard",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R103",
+   "title": "Android-controlled camera robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R104",
+   "title": "Robotic fish with tail servo",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R105",
+   "title": "Tracked tank with turret",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R106",
+   "title": "Pill-dispensing robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R107",
+   "title": "Smart waste-segregating robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R108",
+   "title": "Obstacle-aware robotic arm",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R109",
+   "title": "Radar-based mapping rover",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R110",
+   "title": "Rocker-bogie rover chassis",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R111",
+   "title": "Window-cleaning robot prototype",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R112",
+   "title": "Table-tennis ball picker",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R113",
+   "title": "Robot car with automatic headlights and wipers",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2169
+  },
+  {
+   "id": "R114",
+   "title": "Hospital medicine-delivery robot",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1869
+  },
+  {
+   "id": "R115",
+   "title": "Gesture-controlled wheelchair prototype",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 1949
+  },
+  {
+   "id": "R116",
+   "title": "Chess-move indicator robot arm",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2019
+  },
+  {
+   "id": "R117",
+   "title": "Joystick-controlled excavator model",
+   "area": "robotics",
+   "level": "Level 2: Average",
+   "price": 2099
+  },
+  {
+   "id": "R118",
+   "title": "Autonomous agricultural robot with soil sensing",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R119",
+   "title": "SLAM-based indoor delivery robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R120",
+   "title": "AI-powered waste-sorting robotic arm",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R121",
+   "title": "Autonomous drone with GPS waypoint navigation",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R122",
+   "title": "Human-following robot with computer vision",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R123",
+   "title": "Disaster-rescue robot with live video and gas sensing",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R124",
+   "title": "Robotic wheelchair with obstacle avoidance and voice control",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R125",
+   "title": "Autonomous underwater vehicle prototype",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R126",
+   "title": "Fruit-picking robotic arm with vision",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R127",
+   "title": "Autonomous hospital supply robot with map-based navigation",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R128",
+   "title": "Solar panel cleaning robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R129",
+   "title": "Robotic glove for hand rehabilitation",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R130",
+   "title": "Autonomous parking robot with vision",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R131",
+   "title": "Multi-robot swarm coordination system",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R132",
+   "title": "Reinforcement-learning balancing robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R133",
+   "title": "Autonomous racing car with lane detection",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R134",
+   "title": "Wall-climbing inspection robot",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R135",
+   "title": "EEG-controlled robotic arm",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R136",
+   "title": "Autonomous greenhouse monitoring rover",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R137",
+   "title": "Telepresence robot controlled over the internet",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R138",
+   "title": "Gesture and speech controlled humanoid upper body",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R139",
+   "title": "Warehouse inventory robot with RFID",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R140",
+   "title": "Robotic arm that draws portraits from images",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R141",
+   "title": "Cable-driven robot camera system",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R142",
+   "title": "Autonomous lawn mower with GPS boundary",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R143",
+   "title": "Pipe leak-detection crawler",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R144",
+   "title": "Quadruped robot dog with gait control",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R145",
+   "title": "Robot barista arm for serving drinks",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "R146",
+   "title": "Indoor navigation robot to guide the visually impaired",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4349
+  },
+  {
+   "id": "R147",
+   "title": "Fire-fighting drone prototype with thermal camera",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4419
+  },
+  {
+   "id": "R148",
+   "title": "Automated storage and retrieval system model",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4119
+  },
+  {
+   "id": "R149",
+   "title": "Self-driving toy car using deep learning",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4199
+  },
+  {
+   "id": "R150",
+   "title": "Solar-tracking rover for terrain mapping",
+   "area": "robotics",
+   "level": "Level 3: Final year",
+   "price": 4269
+  },
+  {
+   "id": "E51",
+   "title": "Digital thermometer with fever alert",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E52",
+   "title": "LDR-based street light controller",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E53",
+   "title": "Electronic lock with push buttons",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E54",
+   "title": "Smart school bell timer",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E55",
+   "title": "Water-level indicator with LEDs",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E56",
+   "title": "Tilt alarm for bags",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E57",
+   "title": "Mini weighing scale with load cell",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E58",
+   "title": "People counter with IR sensor",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E59",
+   "title": "Stepper motor controller",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E60",
+   "title": "Smart doorbell with melody",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E61",
+   "title": "Humidity monitor with LCD",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E62",
+   "title": "Simple capacitance meter",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E63",
+   "title": "Room light dimmer with PWM",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E64",
+   "title": "Fire alarm with flame sensor",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E65",
+   "title": "Sound-activated light switch",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E66",
+   "title": "LED running text display",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E67",
+   "title": "Simple function generator",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E68",
+   "title": "Battery level indicator",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E69",
+   "title": "Sunrise alarm clock with gradual light",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E70",
+   "title": "3x3x3 LED cube",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E71",
+   "title": "Reaction timer game",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E72",
+   "title": "Touch lamp using capacitive sensing",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E73",
+   "title": "Smart pill reminder with buzzer",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E74",
+   "title": "Reverse parking sensor",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E75",
+   "title": "Smart wardrobe light with door sensor",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E76",
+   "title": "Music box with buzzer tunes",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E77",
+   "title": "Pedometer with accelerometer",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E78",
+   "title": "Automatic fan speed regulator",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E79",
+   "title": "Plant light meter",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E80",
+   "title": "Seven-segment countdown timer",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 969
+  },
+  {
+   "id": "E81",
+   "title": "Remote-controlled LED strip",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 669
+  },
+  {
+   "id": "E82",
+   "title": "Laser security alarm",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 749
+  },
+  {
+   "id": "E83",
+   "title": "Digital compass display",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 819
+  },
+  {
+   "id": "E84",
+   "title": "Water flow meter",
+   "area": "embedded",
+   "level": "Level 1: Mini",
+   "price": 899
+  },
+  {
+   "id": "E85",
+   "title": "Voice-controlled smart home hub",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E86",
+   "title": "IoT air quality monitor",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E87",
+   "title": "Smart parking system with slot display",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E88",
+   "title": "Biometric attendance with cloud sheet",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E89",
+   "title": "Health monitoring band with BLE",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E90",
+   "title": "Vehicle accident alert with GPS and GSM",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E91",
+   "title": "Smart dustbin with SMS alert",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E92",
+   "title": "IoT water quality monitor",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E93",
+   "title": "Wireless notice board over Wi-Fi",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E94",
+   "title": "Digital weighing scale with Bluetooth",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E95",
+   "title": "Smart irrigation with weather logic",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E96",
+   "title": "GSM-based home security",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E97",
+   "title": "Solar charge controller with display",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E98",
+   "title": "Cold-chain temperature logger",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E99",
+   "title": "Smart street light with traffic sensing",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E100",
+   "title": "Bluetooth proximity door unlock",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E101",
+   "title": "Wireless remote with nRF24 modules",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E102",
+   "title": "Smart cradle with sound-triggered rocking",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E103",
+   "title": "Machine health monitor with vibration sensing",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E104",
+   "title": "Electronic voting machine model",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E105",
+   "title": "Smart shopping cart with RFID billing",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E106",
+   "title": "Capacitive touch keypad lock",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E107",
+   "title": "Wi-Fi-controlled RGB lighting",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E108",
+   "title": "Automatic bell with RTC scheduler",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E109",
+   "title": "Fuel level monitor with display",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E110",
+   "title": "Smart helmet with accident detection",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E111",
+   "title": "Gesture-controlled presentation clicker",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E112",
+   "title": "Wireless energy-meter reader",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E113",
+   "title": "ECG signal acquisition and display",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1719
+  },
+  {
+   "id": "E114",
+   "title": "Cloud-connected soil monitor",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1799
+  },
+  {
+   "id": "E115",
+   "title": "Digital notice board updated by GSM",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1499
+  },
+  {
+   "id": "E116",
+   "title": "Traffic signal with vehicle density sensing",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1569
+  },
+  {
+   "id": "E117",
+   "title": "Wi-Fi smart plug with power monitoring",
+   "area": "embedded",
+   "level": "Level 2: Average",
+   "price": 1649
+  },
+  {
+   "id": "E118",
+   "title": "IoT smart agriculture system with cloud analytics",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E119",
+   "title": "Smart grid monitoring with energy forecasting",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E120",
+   "title": "Real-time patient monitoring with alerts",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E121",
+   "title": "Vehicle tracking and anti-theft system",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E122",
+   "title": "Edge-AI predictive maintenance node",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E123",
+   "title": "Campus attendance with face recognition on ESP32-CAM",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E124",
+   "title": "Industrial IoT gateway with dashboards",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E125",
+   "title": "Wearable fall-detection device",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E126",
+   "title": "Energy-efficient building controller",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E127",
+   "title": "Autonomous irrigation with machine-learning forecasts",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E128",
+   "title": "EV battery management system prototype",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E129",
+   "title": "Wireless EV charging demonstrator",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E130",
+   "title": "Driver drowsiness detection system",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E131",
+   "title": "Smart wheelchair with health monitoring",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E132",
+   "title": "LoRaWAN flood early-warning system",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E133",
+   "title": "Tamper-evident logging for cold storage",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E134",
+   "title": "Smart meter with prepaid billing",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E135",
+   "title": "Hand-gesture recognition on a microcontroller",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E136",
+   "title": "Smart helmet with crash detection and rescue alert",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E137",
+   "title": "Remote ECG monitoring over the cloud",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E138",
+   "title": "Voice-assistant device on ESP32",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E139",
+   "title": "Real-time power quality analyzer",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E140",
+   "title": "Smart waste management with route optimization",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E141",
+   "title": "Environmental monitoring buoy",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E142",
+   "title": "CubeSat-style telemetry model",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E143",
+   "title": "Smart lock with BLE and rolling codes",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E144",
+   "title": "Multi-sensor weather balloon payload",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E145",
+   "title": "Motor monitoring with fault prediction",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "E146",
+   "title": "Smart traffic management with emergency vehicle priority",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3219
+  },
+  {
+   "id": "E147",
+   "title": "Solar microgrid controller with MPPT",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3299
+  },
+  {
+   "id": "E148",
+   "title": "Gesture-controlled smart home hub",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 2999
+  },
+  {
+   "id": "E149",
+   "title": "Wireless sensor network with mesh routing",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3069
+  },
+  {
+   "id": "E150",
+   "title": "Portable ECG and SpO2 monitor with app",
+   "area": "embedded",
+   "level": "Level 3: Final year",
+   "price": 3149
+  },
+  {
+   "id": "V51",
+   "title": "Half and full subtractor",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V52",
+   "title": "2-bit comparator",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V53",
+   "title": "3-to-8 decoder",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V54",
+   "title": "8-to-1 multiplexer",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V55",
+   "title": "4-bit parity checker with LED",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V56",
+   "title": "SR latch and gated latch",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V57",
+   "title": "Master-slave flip-flop",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V58",
+   "title": "4-bit binary counter",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V59",
+   "title": "Mod-10 decade counter",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V60",
+   "title": "Ring counter",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V61",
+   "title": "Johnson counter",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V62",
+   "title": "4-bit shift register with load",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V63",
+   "title": "Binary to BCD converter",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V64",
+   "title": "BCD to seven-segment display",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V65",
+   "title": "Two-digit counter on seven-segment",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V66",
+   "title": "Clap switch logic",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V67",
+   "title": "Traffic signal with pedestrian button",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V68",
+   "title": "Simple door lock FSM",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V69",
+   "title": "LED blink with adjustable speed",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V70",
+   "title": "4-bit adder-subtractor",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V71",
+   "title": "Magnitude comparator display",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V72",
+   "title": "Majority-vote circuit",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V73",
+   "title": "Odd-even number detector",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V74",
+   "title": "Vending logic with two coins",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V75",
+   "title": "2-bit multiplier",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V76",
+   "title": "Small 4x4 RAM",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V77",
+   "title": "ROM lookup table display",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V78",
+   "title": "Digital lock with 4-bit code",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V79",
+   "title": "Dice roller with LFSR",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2099
+  },
+  {
+   "id": "V80",
+   "title": "Frequency divider with selectable ratio",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2169
+  },
+  {
+   "id": "V81",
+   "title": "Rotating LED display pattern",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1869
+  },
+  {
+   "id": "V82",
+   "title": "Water tank controller logic",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 1949
+  },
+  {
+   "id": "V83",
+   "title": "Tic-tac-toe winner detector",
+   "area": "vlsi",
+   "level": "Level 1: Mini",
+   "price": 2019
+  },
+  {
+   "id": "V84",
+   "title": "8-bit ALU with flags",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V85",
+   "title": "Wallace-tree multiplier",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V86",
+   "title": "Carry-lookahead adder",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V87",
+   "title": "Carry-select adder",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V88",
+   "title": "Restoring divider",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V89",
+   "title": "16-bit shift-add multiplier",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V90",
+   "title": "UART with baud-rate generator and FIFO",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V91",
+   "title": "SPI flash reader",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V92",
+   "title": "I2C temperature-sensor reader",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V93",
+   "title": "PWM-controlled servo driver",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V94",
+   "title": "Digital clock with alarm",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V95",
+   "title": "LCD controller",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V96",
+   "title": "Keypad scanner with debouncing",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V97",
+   "title": "VGA text display",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V98",
+   "title": "Round-robin arbiter",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V99",
+   "title": "Dual-port RAM",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V100",
+   "title": "Register file with two read ports",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V101",
+   "title": "Instruction decoder for a simple CPU",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V102",
+   "title": "Stack and queue memory units",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V103",
+   "title": "Four-way junction traffic controller",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V104",
+   "title": "ATM controller FSM",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V105",
+   "title": "Parking-slot management FSM",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V106",
+   "title": "Moving-average filter",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V107",
+   "title": "Ultrasonic pulse-width reader",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V108",
+   "title": "Manchester encoder and decoder",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V109",
+   "title": "CRC generator and checker",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V110",
+   "title": "Hamming code encoder and decoder",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V111",
+   "title": "Frequency counter",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V112",
+   "title": "Binary-to-decimal converter with double-dabble",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3599
+  },
+  {
+   "id": "V113",
+   "title": "Sine-wave generator using lookup table",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3669
+  },
+  {
+   "id": "V114",
+   "title": "Digital lock with timeout FSM",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3369
+  },
+  {
+   "id": "V115",
+   "title": "SPI-controlled ADC reader",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3449
+  },
+  {
+   "id": "V116",
+   "title": "Snake game on VGA",
+   "area": "vlsi",
+   "level": "Level 2: Average",
+   "price": 3519
+  },
+  {
+   "id": "V117",
+   "title": "32-bit RISC-V processor with interrupts",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V118",
+   "title": "Superscalar processor model",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V119",
+   "title": "Branch predictor design",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V120",
+   "title": "Multi-core RISC-V with shared memory",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  },
+  {
+   "id": "V121",
+   "title": "Network-on-chip router",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V122",
+   "title": "Memory controller with request scheduling",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V123",
+   "title": "USB 2.0 device controller",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V124",
+   "title": "PCIe-lite endpoint model",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V125",
+   "title": "JPEG encoder on FPGA",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  },
+  {
+   "id": "V126",
+   "title": "Motion estimation block for video",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V127",
+   "title": "Neural-network inference engine",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V128",
+   "title": "Systolic-array matrix multiplier",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V129",
+   "title": "SHA-256 hashing core",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V130",
+   "title": "RSA modular exponentiation core",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  },
+  {
+   "id": "V131",
+   "title": "Low-power SRAM design in SkyWater 130 nm",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V132",
+   "title": "8-bit SAR ADC layout and simulation",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V133",
+   "title": "Phase-locked loop design",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V134",
+   "title": "Bandgap reference circuit design",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V135",
+   "title": "Op-amp design and layout",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  },
+  {
+   "id": "V136",
+   "title": "Standard-cell library characterization",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V137",
+   "title": "Tape-out-ready design with OpenLane",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V138",
+   "title": "Formal verification of a RISC-V core",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V139",
+   "title": "UVM testbench for an AXI interconnect",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V140",
+   "title": "Hardware-software co-design on Zynq",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  },
+  {
+   "id": "V141",
+   "title": "FPGA-based software-defined radio",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V142",
+   "title": "Real-time object detection on FPGA",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V143",
+   "title": "LDPC decoder",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V144",
+   "title": "Reed-Solomon encoder and decoder",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V145",
+   "title": "Image compression accelerator",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  },
+  {
+   "id": "V146",
+   "title": "MIPS pipeline with forwarding unit",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5919
+  },
+  {
+   "id": "V147",
+   "title": "Low-power clock-gating design study",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5619
+  },
+  {
+   "id": "V148",
+   "title": "Video scaler and display controller",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5699
+  },
+  {
+   "id": "V149",
+   "title": "Audio synthesizer on FPGA",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5769
+  },
+  {
+   "id": "V150",
+   "title": "Design-for-test with scan chain insertion",
+   "area": "vlsi",
+   "level": "Level 3: Final year",
+   "price": 5849
+  }
+ ]
+}
