@@ -193,7 +193,7 @@ app.post('/api/create-order', async (req, res) => {
       db.prepare("INSERT INTO orders(ref,payment_method,status,name,email,phone,address,items_json,total_paise) VALUES(?,'ONLINE','Awaiting payment',?,?,?,?,?,?)").run(order.id, str(c.name, 80), str(c.email, 120), str(c.phone, 20), str(c.address, 400), JSON.stringify(lines), amount);
     } catch (dbErr) { console.error('Could not save order record:', dbErr.message); }
     res.json({ id: order.id, amount: order.amount, currency: order.currency });
-  } catch (err) { console.error('Create order failed:', err.message); return sendError(res, 500, 'Unable to create payment order.'); }
+  } catch (err) { console.error('Create order failed:', err); return sendError(res, 500, 'Unable to create payment order.'); }
 });
 app.post('/api/verify-payment', async (req, res) => {
   if (!razorpay) return res.status(503).json({ verified: false, error: 'Razorpay is not configured on the server.' });
