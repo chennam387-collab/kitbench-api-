@@ -174,9 +174,24 @@ app.post('/api/auth/login', async (req, res) => {
 });
 
 // Razorpay is optional while setting up accounts. Configure both keys to enable payments.
-const paymentsConfigured = Boolean(process.env.RAZORPAY_KEY_ID && process.env.RAZORPAY_KEY_SECRET);
-const razorpay = paymentsConfigured ? new Razorpay({ key_id: process.env.RAZORPAY_KEY_ID, key_secret: process.env.RAZORPAY_KEY_SECRET }) : null;
-// Prices (in paise) are read from catalog.json so customers cannot change them in the browser.
+const razorpayKeyId = (process.env.RAZORPAY_KEY_ID || '').trim();
+const razorpayKeySecret = (process.env.RAZORPAY_KEY_SECRET || '').trim();
+
+const paymentsConfigured = Boolean(razorpayKeyId && razorpayKeySecret);
+
+console.log('Razorpay configuration:', {
+  configured: paymentsConfigured,
+  keyIdPrefix: razorpayKeyId.slice(0, 9),
+  keyIdLength: razorpayKeyId.length,
+  secretLength: razorpayKeySecret.length
+});
+
+const razorpay = paymentsConfigured
+  ? new Razorpay({
+      key_id: razorpayKeyId,
+      key_secret: razorpayKeySecret
+    })
+  : null;// Prices (in paise) are read from catalog.json so customers cannot change them in the browser.
 const PRODUCT_CATALOG = (() => { try { return require('./catalog.json'); } catch (e) { console.error('catalog.json is missing or invalid:', e.message); return {}; } })();
 app.post('/api/create-order', async (req, res) => {
   if (!razorpay) return sendError(res, 503, 'Razorpay is not configured on the server.');
